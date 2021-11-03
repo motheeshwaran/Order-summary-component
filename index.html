@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      text-align: center;
+      background-image:url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 350px ;
+      background-color: #e6e6ff;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      margin: 0px;
+      font-size: 1rem;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding-top: 70px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .main {
+      margin: 40px auto 0 auto;
+      width: 25%;
+      background: white;
+      border-radius: 15px;
+      -webkit-box-shadow: 0px 12px 18px #ccccff;
+      -moz-box-shadow: 0px 12px 18px #ccccff;
+      box-shadow: 0px 12px 18px #ccccff;
+    }
+
+    .text{
+      padding: 20px 40px;
+    }
+
+    .top-img {
+      width: 100%;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+
+    .content {
+      line-height: 1.5;
+      margin: auto;
+      color: #444444;
+    }
+
+    .btn1 {
+      width: 100%;
+      border: 0;
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 12px 20px #ccccff;
+      -moz-box-shadow: 0px 12px 20px #ccccff;
+      box-shadow: 0px 12px 20px #ccccff;
+      color: #ffffff;
+      font-size: 15px;
+      background: #5200cc;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      margin-bottom: 20px;
+    }
+
+
+    .btn1:hover {
+      background: #6c39ed;
+      text-decoration: none;
+    }
+
+    .btn2 {
+      width: 100%;
+      border: 0;
+      font-weight: bold;
+      -webkit-border-radius: 9;
+      -moz-border-radius: 9;
+      border-radius: 9px;
+      color: #877f7f;
+      font-size: 15px;
+      background: #ffffff;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .btn2:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    .amount {
+      margin: 20px auto;
+      text-align: left;
+      background-color: #e6ecff;
+      padding: 15px 70px;
+      border-radius: 9px;
+    }
+
+    .music-icon{
+      position: absolute;
+      bottom:240px;
+      left: 630px;
+    }
+
+    .change {
+      font-weight: bold;
+      position: absolute;
+      left: 840px;
+      bottom: 260px;
+    }
+
+    .change:hover {
+      text-decoration: none;
+      color: #6c39ed;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <img class="top-img" src="images/illustration-hero.svg" alt="">
+    <div class="text">
+      <h1>Order Summary</h1>
+
+      <p class="content">You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!</p>
+
+    <div class="amount">
+      <img class="music-icon" src="images/icon-music.svg" alt="">
+      <h3>Annual Plan</h3>
+      <p class="content">$59.99/year</p>
+      <a class="change" href="#">Change</a>
+    </div>
+
+    <button class="btn1" type="button" name="button">Proceed to Payment</button>
+    <button class="btn2" type="button" name="button">Cancel Order</button>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">MOTHEESHWARAN</a>.
+  </div>
+</body>
+
+</html>
